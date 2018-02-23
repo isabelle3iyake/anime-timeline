@@ -1,0 +1,109 @@
+#wrapper {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-gap: 10px;
+    background-color: black;
+    
+} 
+#ant {
+color: #333333;
+font-size: 100px;
+font-style: italic;
+text-shadow: 4px 4px #81d4fa;
+}
+
+
+#cat {
+    text-align: center;
+    grid-column:span 3;
+    grid-row: span 2; 
+    background-image:url("http://p.fod4.com/p/media/f6544306bd/NvXdgLGRKWxIE5hb7ScT_a5.gif");
+    line-height: 148px;
+}
+
+#dog {
+    display: grid;
+    grid-column: span 1;
+    background-color: #616161;
+    background-image: url("https://media.giphy.com/media/HOX80nO0h8Na/giphy.gif");
+    text-align: center;
+    font-size: 80px
+    font-style: verdana;
+}
+
+.subt{  
+    font-size: 40px;
+    line-height: 0;
+    color: #bdbdbd;
+    text-shadow: 4px 4px #212121;
+}
+.title{ 
+    font-size: 50px;
+    line-height: 0;
+    color: #fafafa;
+    text-shadow: 3px 3px #1a237e;
+}
+.img {
+    width: 100%;
+/*margin: auto;*/
+/*display: block;*/
+}
+.imagecontainer {
+    width: 100%;
+    height: 200px;
+    background-position: 50% 50%;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+#boy {
+    display: grid;
+    grid-column: span 1;
+    background-image: url( "https://media.giphy.com/media/4QxQgWZHbeYwM/giphy.gif");
+    text-align: center;
+    font-size: 40px
+    font-style: verdana;
+}
+#maz {
+    display: grid;
+    grid-column: span 1;
+    background-color: #616161;
+    background-image: url( "http://78.media.tumblr.com/cf61a3a6db454b5b9e56e271603775e7/tumblr_ml4gyo5JTW1rjxyrgo2_500.gif");
+    text-align: center;
+    font-size: 40px
+    font-style: verdana;
+}
+
+#you {
+    display: grid;
+    grid-column: span 1;
+    background-color: #616161;
+    background-image: url( "http://gifimage.net/wp-content/uploads/2017/08/yugioh-gif-16.gif");
+    text-align: center;
+    font-size: 40px
+    font-style: verdana;
+}
+
+#angel {
+    display: grid;
+    grid-column: span 1;
+    background-color: #616161;
+    background-image: url( "https://media.giphy.com/media/QJeMZG8ZU3kAM/giphy.gif");
+    text-align: center;
+    font-size: 40px
+    font-style: verdana;
+}
+
+#beat {
+    display: grid;
+    grid-column: span 1;
+    background-color: #616161;
+    background-image: url( "https://p3.pstatp.com/large/593a0006137f8574e443");
+    text-align: center;
+    font-size: 40px
+    font-style: verdana;
+}
+
+a {
+    text-shadow: 3px 3px #fafafa;
+    font-size: 24px;
+}
